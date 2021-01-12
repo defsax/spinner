@@ -8,7 +8,7 @@ for (const frame of frames) {
   delay += 200;
 }
 
-//start prompt on new line
+//start prompt on new line after loop's setTimeouts are done
 setTimeout(() => {
   console.log();
 }, delay + 100);
