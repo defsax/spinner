@@ -43,6 +43,6 @@ setTimeout(() => {
 }, 1700);
 
 setTimeout(() => {
-  process.stdout.write('\r \n');
+  process.stdout.write('\r\n');
 
 }, 1900);
